@@ -3,10 +3,10 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'BookSearcher', href: '#', current: true },
+  { name: 'Genre', href: '#', current: false },
+  { name: 'Top Rated', href: '#', current: false },
+  { name: 'Author', href: '#', current: false },
 ]
 
 function classNames(...classes) {
