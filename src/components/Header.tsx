@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { FaGithub } from "react-icons/fa";
+
 
 const Header = () => {
   // State to manage the Header's visibility
@@ -12,10 +14,11 @@ const Header = () => {
 
   // Array containing navigation items
   const navItems = [
-    { id: 1, text: 'Home' },
-    { id: 2, text: 'Genres' },
-    { id: 3, text: 'Authors' },
-    { id: 4, text: 'Randomizer' },
+    { id: 1, text: 'Home', link: '/', target: '_self'},
+    { id: 2, text: 'Genres', link: '/genres', target: '_self'},
+    { id: 3, text: 'Authors', link: '/authors', target: '_self'},
+    { id: 4, text: 'Randomizer', link: '/randomizer', target: '_self'},
+    { id: 5, text: <FaGithub size={25} />, link: 'https://github.com/jewelsonmyjeans', target: '_blank'},
   ];
 
   return (
@@ -30,7 +33,7 @@ const Header = () => {
             key={item.id}
             className='p-4 hover:bg-[#A9C5A0] rounded-xl m-2 cursor-pointer duration-300 hover:text-black'
           >
-            {item.text}
+            <a href={item.link} target={item.target}>{item.text}</a>
           </li>
         ))}
       </ul>
