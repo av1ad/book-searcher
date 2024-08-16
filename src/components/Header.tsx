@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <div className='bg-[#758173] flex justify-between items-center h-24 max-w-full mx-auto px-8 text-white'>
       {/* Logo */}
-      <h1 className='w-[75%] text-3xl font-bold text-[#FFFFFF] text-left'>BookSearcher 📚</h1>
+      <h1 className='w-[75%] text-3xl font-bold text-[#FFFFFF] text-left'>BookSearcher </h1>
 
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
