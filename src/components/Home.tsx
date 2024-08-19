@@ -4,11 +4,11 @@ export default function Home() {
     return (
         <div className="h-screen">
             <div>
-                <ul className="flex justify-between">
-                    <li className="border-8 w-[224px] h-[350px] m-7"></li>
-                    <li className="border-8 w-[224px] h-[350px] m-7"></li>
-                    <li className="border-8 w-[224px] h-[350px] m-7"></li>
-                    <li className="border-8 w-[224px] h-[350px] m-7"></li>
+                <ul className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-2">
+                    <li className="border-[.5em] w-[13.75em] h-[22em] m-10"></li>
+                    <li className="border-[.5em] w-[13.75em] h-[22em] m-10"></li>
+                    <li className="border-[.5em] w-[13.75em] h-[22em] m-10"></li>
+                    <li className="border-[.5em] w-[13.75em] h-[22em] m-10"></li>
                 </ul>
             </div>
             <div>
