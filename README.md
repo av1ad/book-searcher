@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+# BookSearcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An application that helps you discover books using the OpenLibrary API, with additional features like randomization and AI-assisted recommendations.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search books by author, title, and genre.
+- Randomizer for discovering new books
+- AI-powered book recommendations based on user input or preferences
 
-## Expanding the ESLint configuration
+### Basic Search
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Navigate to the home page and you will see the search button for searching for books based on title or author.
 
-- Configure the top-level `parserOptions` property like this:
+### Random Book Discovery
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Clicking on the 'Get Me A Random Book' button gets ou any random book from the
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### AI-Assisted Recommendations
+
+Explain anything such as titles, genres, authors, etc. You are looking for and it will give you books that fit your prompt.
+
+## API Reference
+
+This app uses the OpenLibrary API. For more information, visit [OpenLibrary API documentation](https://openlibrary.org/developers/api).
+
+## Contributing
+
+[Instructions for how others can contribute to your project]
+
+## License
+
+
+## Acknowledgments
+
+- OpenLibrary for providing the book data API
