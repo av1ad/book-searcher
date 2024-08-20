@@ -18,7 +18,8 @@ const Header = () => {
     { id: 2, text: 'Genres', link: '/genres', target: '_self'},
     { id: 3, text: 'Authors', link: '/authors', target: '_self'},
     { id: 4, text: 'Randomizer', link: '/randomizer', target: '_self'},
-    { id: 5, text: <FaGithub size={25} />, link: 'https://github.com/jewelsonmyjeans', target: '_blank'},
+    { id: 5, text: 'AI', link: '/ai', target: '_self'},
+    { id: 6, text: <FaGithub size={25} />, link: 'https://github.com/jewelsonmyjeans', target: '_blank'},
   ];
 
   return (
