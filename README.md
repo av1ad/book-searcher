@@ -26,7 +26,7 @@ This app uses the OpenLibrary API. For more information, visit [OpenLibrary API 
 
 ## Contributing
 
-[Instructions for how others can contribute to your project]
+
 
 ## License
 
