@@ -7,11 +7,13 @@ import Authors from './components/author/authors.tsx'
 import AI from './components/ai/ai.tsx'
 import Randomizer from './components/randomizer/randomizer.tsx'
 import './index.css'
+import PageNotFound from './components/PageNotFound.tsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <PageNotFound />,
   },
   {
     path: '/genres',
