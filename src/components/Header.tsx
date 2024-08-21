@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -34,7 +35,7 @@ const Header = () => {
             key={item.id}
             className='p-4 hover:bg-[#A9C5A0] rounded-xl m-2 cursor-pointer duration-300 hover:text-black'
           >
-            <a href={item.link} target={item.target}>{item.text}</a>
+            <Link to={item.link}>{item.text}</Link>
           </li>
         ))}
       </ul>
