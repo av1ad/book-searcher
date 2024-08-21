@@ -1,9 +1,13 @@
 import React from "react";
+import Header from "../Header";
+import Footer from "../Footer";
 
 export default function authors() {
     return (
-        <div>
+        <>
+            <Header />
             <h1>Authors</h1>
-        </div>
+            <Footer />
+        </>
     )
 }
