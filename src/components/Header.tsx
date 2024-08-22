@@ -62,7 +62,7 @@ const Header = () => {
             key={item.id}
             className='p-4 border-b rounded-xl hover:bg-[#A9C5A0] duration-300 hover:text-black cursor-pointer border-gray-600'
           >
-            {item.text}
+            <Link to={item.link}>{item.text}</Link>
           </li>
         ))}
       </ul>
