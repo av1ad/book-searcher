@@ -17,6 +17,10 @@ export default function authors() {
             <li className="border-[.5em] w-[12em] h-[19em] m-3"></li>
             <li className="border-[.5em] w-[12em] h-[19em] m-3"></li>
             <li className="border-[.5em] w-[12em] h-[19em] m-3"></li>
+            <li className="border-[.5em] w-[12em] h-[19em] m-3"></li>
+            <li className="border-[.5em] w-[12em] h-[19em] m-3"></li>
+            <li className="border-[.5em] w-[12em] h-[19em] m-3"></li>
+            <li className="border-[.5em] w-[12em] h-[19em] m-3"></li>
           </ul>
         </div>
       </div>

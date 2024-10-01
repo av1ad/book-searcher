@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   // State to manage the Header's visibility
@@ -75,7 +75,12 @@ const Header = () => {
             key={item.id}
             className="p-4 border-b rounded-xl hover:bg-[#A9C5A0] duration-300 hover:text-black cursor-pointer border-gray-600"
           >
-            <NavLink to={item.link} className={({ isActive }) => (isActive ? "active" : "")}>{item.text}</NavLink>
+            <NavLink
+              to={item.link}
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              {item.text}
+            </NavLink>
           </li>
         ))}
       </ul>
