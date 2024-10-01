@@ -2,7 +2,7 @@ import { FaSearch } from "react-icons/fa";
 
 export default function Home() {
     return (
-        <div className="h-screen">
+        <div className="min-h-screen">
             <div>
                 <ul className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 justify-items-center">
                     <li className="border-[.5em] w-[12.75em] h-[21em] m-10"></li>
