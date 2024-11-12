@@ -22,11 +22,10 @@ const Header = () => {
     {
       id: 6,
       text: <FaGithub size={25} />,
-      link: "https://github.com/jewelsonmyjeans",
+      link: "https://github.com/av1ad",
       target: "_blank",
     },
   ];
-
   return (
     <div className="bg-[#758173] flex justify-between items-center h-24 max-w-full mx-auto px-8 text-white">
       {/* Logo */}
@@ -44,6 +43,7 @@ const Header = () => {
             <NavLink
               to={item.link}
               className={({ isActive }) => (isActive ? "active" : "")}
+              target={item.target}
             >
               {item.text}
             </NavLink>
@@ -78,6 +78,7 @@ const Header = () => {
             <NavLink
               to={item.link}
               className={({ isActive }) => (isActive ? "active" : "")}
+              target={item.target}
             >
               {item.text}
             </NavLink>
