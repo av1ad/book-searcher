@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 
 export default function randomizer() {
+  useEffect(() => {
+    fetch('https://openlibrary.org/search.json?q=the+lord+of+the+rings')
+      .then(res => res.json())
+      .then((books) => {
+        console.log(books)
+      })
+  })
+
   return (
     <>
       <Header />
